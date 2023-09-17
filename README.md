@@ -1,4 +1,4 @@
-## Task instructions for DevOps Intern Role
+## Task instructions for DevOps 
 
 ### Setup a kubernetes cluster using kind 
 1. Write a simple bash script that deploys a [kind](https://kind.sigs.k8s.io/docs/user/quick-start/)  cluster locally
@@ -17,5 +17,5 @@
 ### Submission
 
 1. Create a repository with all your code in it
-2. Send an email to intern.task@ignite.dev on or before 23/09/2023
+
    
