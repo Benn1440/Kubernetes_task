@@ -2,6 +2,8 @@
 
 ### Setup a kubernetes cluster using kind 
 1. Write a simple bash script that deploys a [kind](https://kind.sigs.k8s.io/docs/user/quick-start/)  cluster locally
+
+![kind](https://github.com/Benn1440/Ansible/assets/67696393/8c8b2d85-4502-42c1-9e18-0031cb82d510)
 2. Download the kubeconfig for the cluster and store in a safe place, we will use it much later in the next steps
 
 ### Deploy a sample Node.js app using terraform
