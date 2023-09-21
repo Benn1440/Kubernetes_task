@@ -33,6 +33,9 @@ To use the generated kubeconfig file with kubectl to interact with KinD cluster,
 ### Deploy a sample Node.js app using terraform
 
 1. When kind is up and running, dockerize a simple hello world [express](https://expressjs.com/en/starter/hello-world.html) and deploy to dockerhub
+
+![NodeApp](https://github.com/Benn1440/Ansible/assets/67696393/9fbb612f-9662-4d99-92ff-fa19e0a87f06)
+
 2. create a kubernetes deployment manifest to deploy to deploy the Node.js to the kind cluste but don't apply it yet
 3. using the [kubectl terraform provider](https://registry.terraform.io/providers/gavinbunney/kubectl/latest/docs), write a terraform code to deploy the kubectl manifest to the kind cluster 
 
