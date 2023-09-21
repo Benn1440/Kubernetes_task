@@ -26,7 +26,7 @@ To use the generated kubeconfig file with kubectl to interact with KinD cluster,
 
 ![KK](https://github.com/Benn1440/Ansible/assets/67696393/38689954-a4e5-4fcf-ad7b-58b3d25f0237)
 
-    $ kubecktl get nodes
+    $ kubectl get nodes
 
 ### Deploy a sample Node.js app using terraform
 
