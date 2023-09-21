@@ -18,6 +18,8 @@ Kind cluster running locally,
 Displays the nodes running on the cluster
 
 2. Download the kubeconfig for the cluster and store in a safe place
+
+
     $ kind get kubeconfig --name=kubecuster > kubeconfig.yaml
 
 To use the generated kubeconfig file with kubectl to interact with KinD cluster, set the KUBECONFIG environment variable to point to the file 
