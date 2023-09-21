@@ -6,31 +6,27 @@ To achieve this after creating the script i needed to install Docker, Kind and k
 
 ![kind](https://github.com/Benn1440/Ansible/assets/67696393/8c8b2d85-4502-42c1-9e18-0031cb82d510)
 
-
-2. Download the kubeconfig for the cluster and store in a safe place
-    $ kind get kubeconfig --name=kubecuster > kubeconfig.yaml
-
-    To use the generated kubeconfig file with kubectl to interact with KinD cluster, set the KUBECONFIG environment variable to point to the file 
-
-    $ export KUBECONFIG="./kubeconfig.yaml"
-
-    ![KK](https://github.com/Benn1440/Ansible/assets/67696393/38689954-a4e5-4fcf-ad7b-58b3d25f0237)
-
-    $ kubecktl get nodes
-
-=======
-Kind cluster running locally,
-
-## kubectl get nodes
-Displays the nodes running on the cluster
-
-
 ### LINKS to documentation
 https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 https://docs.docker.com/engine/install/ubuntu/#installation-methods
 https://kind.sigs.k8s.io/docs/user/quick-start/
 
-2. Download the kubeconfig for the cluster and store in a safe place, we will use it much later in the next steps
+
+Kind cluster running locally,
+
+ $ kubectl get nodes
+Displays the nodes running on the cluster
+
+2. Download the kubeconfig for the cluster and store in a safe place
+    $ kind get kubeconfig --name=kubecuster > kubeconfig.yaml
+
+To use the generated kubeconfig file with kubectl to interact with KinD cluster, set the KUBECONFIG environment variable to point to the file 
+
+    $ export KUBECONFIG="./kubeconfig.yaml"
+
+![KK](https://github.com/Benn1440/Ansible/assets/67696393/38689954-a4e5-4fcf-ad7b-58b3d25f0237)
+
+    $ kubecktl get nodes
 
 ### Deploy a sample Node.js app using terraform
 
