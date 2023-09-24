@@ -1,14 +1,14 @@
 # Use the official Node.js runtime as the base image
-FROM  alpine:3.17
+FROM alpine:latest
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
 
 # Copy package.json and package-lock.json to the container
-COPY package*.json ./
+COPY package*.json app.js ./
 
 # Install application dependencies
-RUN npm install
+RUN npm install 
 
 # Copy the rest of the application code to the container
 COPY . .
